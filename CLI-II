@@ -1,0 +1,40 @@
+
+Gebruiker@Gebruiker-PC MINGW64 ~
+$ mkdir CLI-II
+
+Gebruiker@Gebruiker-PC MINGW64 ~
+$ cd CLI-II
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ touch Blank
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ echo "Hello" > greetings.txt
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ for i in {1..5}; echo "Hello" > greetings.txt; done
+bash: syntax error near unexpected token `echo'
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ echo "Hello" > greetings.txt
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ for i in {1..5}; do echo "Hello" >> greetings.txt; done
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ for i in {1..5}; do cp greetings.txt $i.txt; done
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ echo 'cat' >> pets.txt | echo 'hamster' >> pets.txt
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ echo 'cat' >> commands.txt | echo ´ls´ >> commands.txt | echo 'pwd' >> commands.txt
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ cat pets.txt commands.txt | sort | uniq > lovelyCommands.txt
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$ ^C
+
+Gebruiker@Gebruiker-PC MINGW64 ~/CLI-II
+$
